@@ -94,14 +94,15 @@ body {
     position: absolute;
     border: 2px solid transparent;
     border-radius: 50%;
-    height: 40%;
-    width: 40%;
+    height: 38%;
+    width: 38%;
     bottom: 5%;
     animation: rotate 10s linear infinite;
 }
 .earth {
-    height: 40%;
+    height: 38%;
     bottom: 5%;
+    transform: rotate(-65deg);
 }
 .moon {
     height: 20%;
