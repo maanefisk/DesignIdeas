@@ -74,6 +74,8 @@ body {
   position: relative;
   background-image: url(/Spacedesign/BG.svg);
   background-attachment: cover;
+  background-repeat: none;
+  background-position: center;
   height: 50%;
   width: 50%;
   z-index: 3;
