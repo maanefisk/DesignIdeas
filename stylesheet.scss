@@ -1,0 +1,102 @@
+  
+* {
+    font-family: Morn;
+}
+
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100vh;
+    width: 100%;
+}
+
+.designone {
+    margin: 0;
+    background-color: rgb(231, 245, 248);
+    height: 50%;
+    width: 50%;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.milky {
+    position: absolute;
+    animation: wavey 20s linear infinite;
+    z-index: 1;
+    width: 50%;
+    top: 0;
+}
+.milky2 {
+    position: absolute;
+    animation: wavey2 20s linear infinite;
+    z-index: 2;
+    float: left;
+    width: 50%;
+    top: 0;
+}
+.textcontainer {
+    background-color: rgba(white, 0.4);
+    border: 1px solid rgb(246, 253, 255);
+    z-index: 4;
+    border-radius: 40px;
+    height: 60%;
+    width: 60%;
+}
+.textcontainer2 {
+    position: relative;
+    z-index: 4;
+    height: 100%;
+    width: 100%;
+    color: rgb(64, 173, 224);
+    text-align: center;
+    font-size: large;
+    overflow: hidden;
+    border-radius: 40px;
+}
+.designtwo {
+    background-color: rgb(184, 184, 184);
+    height: 50%;
+    width: 50%;
+    z-index: 3;
+}
+.designthree {
+    background-color: rgb(126, 126, 126);
+    height: 50%;
+    width: 50%;
+}
+.designfour {
+    background-color: rgb(32, 32, 32);
+    height: 50%;
+    width: 50%;
+}
+
+@keyframes wavey {
+    0% {
+        transform: translateX(0px);
+    }
+    
+    100% {
+        transform: translateX(100%);
+    }
+  }
+  @keyframes wavey2 {
+    0% {
+        transform: translateX(-100%);
+    }
+    
+    100% {
+        transform: translateX(0px);
+    }
+  }
+
+  @font-face {
+    font-family: Morn;
+    src: url("Existence-UnicaseLight.otf");
+  }
