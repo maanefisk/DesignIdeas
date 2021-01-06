@@ -23,7 +23,7 @@ body {
 
 .designone {
   margin: 0;
-  background-color: #e7f5f8;
+  background-color: #E6F2FA;
   height: 50%;
   width: 50%;
   z-index: 1;
@@ -62,20 +62,11 @@ body {
   border: 1px solid #f6fdff;
   z-index: 4;
   border-radius: 40px;
-  height: 60%;
-  width: 60%;
-}
-
-.textcontainer2 {
-  position: relative;
-  z-index: 4;
-  height: 100%;
-  width: 100%;
-  color: #40ade0;
+  height: 50%;
+  width: 50%;
   text-align: center;
-  font-size: large;
-  overflow: hidden;
-  border-radius: 40px;
+  font-size: 1.6vh;
+  padding: 5%;
 }
 
 .designtwo {
@@ -143,6 +134,6 @@ body {
 
 @font-face {
   font-family: Morn;
-  src: url("Existence-UnicaseLight.otf");
+  src: url("Roboto-Thin.ttf");
 }
 /*# sourceMappingURL=stylesheet.css.map */
